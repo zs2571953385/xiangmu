@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><script src="/e/extend/photo_info/js/photoPic.js"></script>
+<?php if (!defined('THINK_PATH')) exit();?><!-- <script src="/e/extend/photo_info/js/photoPic.js"></script>
 <div id="photoInfo">
         <div id="photoBox">
         <ul>
@@ -10,4 +10,4 @@
             <div id="photoTxt"></div>
         </div>
     <div id="photoList"></div>        
-</div>
+</div> -->
