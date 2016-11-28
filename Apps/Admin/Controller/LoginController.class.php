@@ -24,7 +24,7 @@ class LoginController extends Controller {
 		验证用户
 	 */
 	public function loginok(){
-<<<<<<< HEAD
+
 		$admin_name = $_POST['admin_name'];
 		$admin_pwd = $_POST['admin_pwd'];
 		$code = $_POST['code'];
@@ -32,7 +32,7 @@ class LoginController extends Controller {
 		//var_dump($admin_addtime);die;
 		$Admin = M('admin');
 		$arr=$Admin->where("admin_name='$admin_name'")->find();
-=======
+
 		// $admin_name = $_POST['admin_name'];
 		// $admin_pwd = $_POST['admin_pwd'];
 		// $code = $_POST['code'];
@@ -44,7 +44,6 @@ class LoginController extends Controller {
 		$Admin = M('article_admin');
 		//$arr = $Admin->find();
 		$arr = $Admin->where(array('admin_name'=>$data['admin_name']))->find();
->>>>>>> 7a1ae4c71e6474bf00522da70cdf316281f1eda8
 		//var_dump($arr);die;
 
 		 $verify = new \Think\Verify();
