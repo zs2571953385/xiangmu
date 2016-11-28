@@ -8,7 +8,7 @@ namespace admin\Controller;
 use Think\Controller;
 class ArticleController extends Controller {
 	/*
-	*文章列表
+	*文章列表  00000
 	*
 	*/
     public function index(){
