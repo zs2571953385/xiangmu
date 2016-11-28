@@ -7,10 +7,10 @@
 <meta name="renderer" content="webkit">
 <title></title>
     <!-- 公共头部分 -->
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/admin.css">
-    <script src="/xiangmu/Public/Admin/js/jquery.js"></script>   
-    <script src="/xiangmu/Public/Admin/js/pintuer.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <script src="/Public/Admin/js/jquery.js"></script>   
+    <script src="/Public/Admin/js/pintuer.js"></script>
 </head>
 <body>
 <form method="post" action="" id="listform">
@@ -70,15 +70,15 @@
       <volist name="list" id="vo">
         <?php if(is_array($article_data)): foreach($article_data as $key=>$v): ?><tr>
           <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="id[]" value="" />
-           <?php echo ($v["id"]); ?></td>
+           <?php echo ($v["aid"]); ?></td>
           <td><input type="text" name="sort[1]" value="1" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;" /></td>
-          <td width="10%"><img src="/xiangmu/Public/Admin/images/11.jpg" alt="" width="70" height="50" /></td>
+          <td width="10%"><img src="/Public/Admin/images/11.jpg" alt="" width="70" height="50" /></td>
           <td><?php echo ($v["art_name"]); ?></td>
           <td><font color="#00CC99"><?php echo ($v["name"]); ?></font></td>
           <td><font color="#00CC99"><?php echo ($v["art_keyword"]); ?></font></td>
           <td><?php echo ($v["art_type"]); ?></td>
           <td><?php echo ($v["art_create_time"]); ?></td>
-          <td><div class="button-group"> <a class="button border-main" href="/xiangmu/admin.php/Article/"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/xiangmu/admin.php/Article/del?id=<?php echo ($v["id"]); ?>" onclick="return del(1,1,1)"><span class="icon-trash-o"></span> 删除</a> </div></td>
+          <td><div class="button-group"> <a class="button border-main" href="/admin.php/Article/"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin.php/Article/del?id=<?php echo ($v["aid"]); ?>" onclick="return del(1,1,1)"><span class="icon-trash-o"></span> 删除</a> </div></td>
         </tr><?php endforeach; endif; ?>
       <tr>
         <td style="text-align:left; padding:19px 0;padding-left:20px;"><input type="checkbox" id="checkall"/>

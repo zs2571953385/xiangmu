@@ -7,10 +7,10 @@
 <meta name="renderer" content="webkit">
 <title></title>
     <!-- 公共头部分 -->
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/admin.css">
-    <script src="/xiangmu/Public/Admin/js/jquery.js"></script>   
-    <script src="/xiangmu/Public/Admin/js/pintuer.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <script src="/Public/Admin/js/jquery.js"></script>   
+    <script src="/Public/Admin/js/pintuer.js"></script>
 </head>
 <body>
 <form method="post" action="" id="listform">
@@ -96,7 +96,7 @@ function del(id){
 
 	
 	if(confirm("您确定要删除吗?")){
-		url='/xiangmu/admin.php/System/del';
+		url='/admin.php/System/del';
 		$.get(url,{id:id},function(msg){
 			window.location='adminlist';
 		})	

@@ -7,10 +7,10 @@
     <meta name="renderer" content="webkit">
     <title></title>  
     <!-- 公共头部分 -->
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/admin.css">
-    <script src="/xiangmu/Public/Admin/js/jquery.js"></script>   
-    <script src="/xiangmu/Public/Admin/js/pintuer.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <script src="/Public/Admin/js/jquery.js"></script>   
+    <script src="/Public/Admin/js/pintuer.js"></script>
 </head>
 <body>
 <form method="post" action="">
@@ -41,7 +41,7 @@
           <td><?php echo ($v["email"]); ?></td>         
           <td><?php echo ($v["m_content"]); ?></td>
           <td><?php echo ($v["m_addtime"]); ?></td>
-          <td><div class="button-group"> <a class="button border-red" href="/xiangmu/admin.php/Book/del?id=<?php echo ($v["book_id"]); ?>" onclick="return del(1)"><span class="icon-trash-o"></span> 删除</a> </div></td>
+          <td><div class="button-group"> <a class="button border-red" href="/admin.php/Book/del?id=<?php echo ($v["book_id"]); ?>" onclick="return del(1)"><span class="icon-trash-o"></span> 删除</a> </div></td>
         </tr><?php endforeach; endif; ?>
         
       <tr>

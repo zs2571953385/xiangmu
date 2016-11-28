@@ -14,7 +14,7 @@ class ArticleModel extends Model {
 	  *@return array
 	  */
   	public function sel_list(){
-  		return $this->Table($this->table_name)
+  		return $this->Table($this->table_name)->Field('article.id as aid,art_name,name,art_keyword,art_type,art_create_time')
   			->join('article_user AS user ON user.id=article.art_user_id')
   			->select();
  	}

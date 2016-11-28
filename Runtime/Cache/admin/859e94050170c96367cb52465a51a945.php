@@ -7,19 +7,19 @@
     <meta name="renderer" content="webkit">
     <title>后台管理中心</title>  
     <!-- 公共头部分 -->
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/admin.css">
-    <script src="/xiangmu/Public/Admin/js/jquery.js"></script>   
-    <script src="/xiangmu/Public/Admin/js/pintuer.js"></script>
-    <!-- <link rel="stylesheet" href="/xiangmu/Public/Admin/css/pintuer.css"> -->
-    <!-- <link rel="stylesheet" href="/xiangmu/Public/Admin/css/admin.css"> -->
-    <!-- <script src="/xiangmu/Public/Admin/js/jquery.js"></script>   -->
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <script src="/Public/Admin/js/jquery.js"></script>   
+    <script src="/Public/Admin/js/pintuer.js"></script>
+    <!-- <link rel="stylesheet" href="/Public/Admin/css/pintuer.css"> -->
+    <!-- <link rel="stylesheet" href="/Public/Admin/css/admin.css"> -->
+    <!-- <script src="/Public/Admin/js/jquery.js"></script>   -->
 </head>
 <body style="background-color:#f2f9fd;">
 <div class="header bg-main">
 
   <div class="logo margin-big-left fadein-top">
-    <h1><img src="/xiangmu/Public/Admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
+    <h1><img src="/Public/Admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
   </div>
   
                 

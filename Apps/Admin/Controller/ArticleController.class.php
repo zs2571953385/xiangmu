@@ -25,7 +25,7 @@ class ArticleController extends Controller {
 	public function del(){
 		$id=I('get.id');
 		// echo $id;
-		$Article=D('ArticleList');
+		$Article=D('Article');
 		$res=$Article->del($id);
 		if($res){
             $this->redirect('Article/index');
