@@ -7,10 +7,10 @@
     <meta name="renderer" content="webkit">
     <title>网站信息</title>  
     <!-- 公共头部分 -->
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/xiangmu/Public/Admin/css/admin.css">
-    <script src="/xiangmu/Public/Admin/js/jquery.js"></script>   
-    <script src="/xiangmu/Public/Admin/js/pintuer.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <script src="/Public/Admin/js/jquery.js"></script>   
+    <script src="/Public/Admin/js/pintuer.js"></script>
 </head>
 <body>
 <div class="panel admin-panel">
