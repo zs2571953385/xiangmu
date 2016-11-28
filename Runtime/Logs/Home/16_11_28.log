@@ -322,3 +322,49 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.018002s ]
 >>>>>>> 46ee8de00afd41530625e11bcc05080db17a0c97
 
+[ 2016-11-28T14:57:16+08:00 ] ::1 /work/dashixun/xiangmu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: navinfor F:\WWW\WWW\work\dashixun\xiangmu\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 6 行.
+NOTIC: [8] Undefined variable: picarr F:\WWW\WWW\work\dashixun\xiangmu\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 6 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\WWW\WWW\work\dashixun\xiangmu\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-11-28T15:33:31+08:00 ] ::1 /work/dashixun/xiangmu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: navinfor F:\WWW\WWW\work\dashixun\xiangmu\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 6 行.
+NOTIC: [8] Undefined variable: picarr F:\WWW\WWW\work\dashixun\xiangmu\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 6 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\WWW\WWW\work\dashixun\xiangmu\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
