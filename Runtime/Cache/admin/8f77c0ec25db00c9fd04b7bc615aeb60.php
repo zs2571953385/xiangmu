@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,7 +7,10 @@
     <meta name="renderer" content="webkit">
     <title>登录</title>  
         <!-- 公共头部分 -->
-<include file="Layout/header"/>
+    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/admin.css">
+    <script src="/work/dashixun/xiangmu/Public/Admin/js/jquery.js"></script>   
+    <script src="/work/dashixun/xiangmu/Public/Admin/js/pintuer.js"></script>
 </head>
 <body>
 <div class="bg"></div>
@@ -17,13 +20,13 @@
             <div style="height:150px;"></div>
             <div class="media media-y margin-big-bottom">           
             </div>         
-            <form action="__URL__/loginok" method="POST">
+            <form action="/work/dashixun/xiangmu/admin.php/Login/addok" method="POST">
             <div class="panel loginbox">
-                <div class="text-center margin-big padding-big-top"><h1>管理员注册</h1></div>
+                <div class="text-center margin-big padding-big-top"><h1>后台管理中心</h1></div>
                 <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
                     <div class="form-group">
                         <div class="field field-icon-right">
-                            <input type="text" class="input input-big" name="admin_name" placeholder="登录账号" data-validate="required:请填写账号" />
+                            <input type="text" class="input input-big" name="admin_name" placeholder="账号" data-validate="required:请填写账号" />
                             <span class="icon icon-user margin-small"></span>
                         </div>
                     </div>
@@ -33,17 +36,10 @@
                             <span class="icon icon-key margin-small"></span>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="field">
-                            <input type="text" class="input input-big" name="code" placeholder="填写右侧的验证码" data-validate="required:请填写右侧的验证码" />
-                           <img src="__URL__/code" alt="" width="100" height="32" class="passcode" style="height:43px;cursor:pointer;" onclick="this.src='__URL__/code/'+Math.random()">  
-
-                            <!-- <img onclick="this.src='__URL__/code/'+Math.random()"style="cursor:pointer" src="__URL__/code"/>         -->             
-                        </div>
-                    </div>
+                   
                 </div>
-                <div style="padding:30px;"><input type="submit" class="button button-block bg-main text-big input-big" value="登录"><br>
-                <a href="__URL__/add" class="button button-block bg-main text-big input-big">点击注册</a>
+                <div style="padding:30px;"><input type="submit" class="button button-block bg-main text-big input-big" value="注册"><br>
+               
                 </div>
             </div>
             </form>          

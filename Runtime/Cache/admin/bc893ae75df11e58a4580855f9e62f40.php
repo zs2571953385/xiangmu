@@ -7,10 +7,17 @@
 <meta name="renderer" content="webkit">
 <title></title>
     <!-- 公共头部分 -->
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/admin.css">
+    <script src="/work/dashixun/xiangmu/Public/Admin/js/jquery.js"></script>   
+    <script src="/work/dashixun/xiangmu/Public/Admin/js/pintuer.js"></script>
+=======
     <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
     <link rel="stylesheet" href="/Public/Admin/css/admin.css">
     <script src="/Public/Admin/js/jquery.js"></script>   
     <script src="/Public/Admin/js/pintuer.js"></script>
+>>>>>>> 46ee8de00afd41530625e11bcc05080db17a0c97
 </head>
 <body>
 <form method="post" action="" id="listform">
