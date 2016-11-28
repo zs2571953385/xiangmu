@@ -8,5 +8,6 @@
 	 define('BIND_MODULE','Admin');
 	 define('RUNTIME_PATH','./Runtime/');// 开启调试模式
 	 define('APP_DEBUG',True);// 更名框架目录名称，并载入框架入口文件
+	 header('content-type:text/html;charset=utf-8');
 	 require './ThinkPHP/ThinkPHP.php';
  ?>
