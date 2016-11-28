@@ -7,10 +7,10 @@
     <meta name="renderer" content="webkit">
     <title>登录</title>  
         <!-- 公共头部分 -->
-    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/admin.css">
-    <script src="/work/dashixun/xiangmu/Public/Admin/js/jquery.js"></script>   
-    <script src="/work/dashixun/xiangmu/Public/Admin/js/pintuer.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <script src="/Public/Admin/js/jquery.js"></script>   
+    <script src="/Public/Admin/js/pintuer.js"></script>
 </head>
 <body>
 <div class="bg"></div>
@@ -20,7 +20,7 @@
             <div style="height:150px;"></div>
             <div class="media media-y margin-big-bottom">           
             </div>         
-            <form action="/work/dashixun/xiangmu/admin.php/Login/loginok" method="POST">
+            <form action="/admin.php/Login/loginok" method="POST">
             <div class="panel loginbox">
                 <div class="text-center margin-big padding-big-top"><h1>管理员注册</h1></div>
                 <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
@@ -39,14 +39,14 @@
                     <div class="form-group">
                         <div class="field">
                             <input type="text" class="input input-big" name="code" placeholder="填写右侧的验证码" data-validate="required:请填写右侧的验证码" />
-                           <img src="/work/dashixun/xiangmu/admin.php/Login/code" alt="" width="100" height="32" class="passcode" style="height:43px;cursor:pointer;" onclick="this.src='/work/dashixun/xiangmu/admin.php/Login/code/'+Math.random()">  
+                           <img src="/admin.php/Login/code" alt="" width="100" height="32" class="passcode" style="height:43px;cursor:pointer;" onclick="this.src='/admin.php/Login/code/'+Math.random()">  
 
-                            <!-- <img onclick="this.src='/work/dashixun/xiangmu/admin.php/Login/code/'+Math.random()"style="cursor:pointer" src="/work/dashixun/xiangmu/admin.php/Login/code"/>         -->             
+                            <!-- <img onclick="this.src='/admin.php/Login/code/'+Math.random()"style="cursor:pointer" src="/admin.php/Login/code"/>         -->             
                         </div>
                     </div>
                 </div>
                 <div style="padding:30px;"><input type="submit" class="button button-block bg-main text-big input-big" value="登录"><br>
-                <a href="/work/dashixun/xiangmu/admin.php/Login/add" class="button button-block bg-main text-big input-big">点击注册</a>
+                <a href="/admin.php/Login/add" class="button button-block bg-main text-big input-big">点击注册</a>
                 </div>
             </div>
             </form>          

@@ -29,7 +29,7 @@ class LoginController extends Controller {
 		$code = $_POST['code'];
 		$admin_addtime =  date('H-m-d h:i:s',time());
 		//var_dump($admin_addtime);die;
-		$Admin = M('Article_admin');
+		$Admin = M('admin');
 		$arr=$Admin->where("admin_name='$admin_name'")->find();
 		//var_dump($arr);die;
 		 $verify = new \Think\Verify();
@@ -76,7 +76,7 @@ class LoginController extends Controller {
 		$admin_name = $_POST['admin_name'];
 		$admin_pwd  = md5($_POST['admin_pwd']); ;   //接收注册数据
 
-		$admin = D('Article_admin');
+		$admin = D('admin');
 		$arr   = $admin->where("admin_name='$admin_name'")->select();
 		//var_dump($arr);die;
 		if($arr){
