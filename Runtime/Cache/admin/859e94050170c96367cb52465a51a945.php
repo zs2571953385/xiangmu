@@ -7,6 +7,7 @@
     <meta name="renderer" content="webkit">
     <title>后台管理中心</title>  
     <!-- 公共头部分 -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
     <link rel="stylesheet" href="/Public/Admin/css/admin.css">
     <script src="/Public/Admin/js/jquery.js"></script>   
@@ -14,12 +15,25 @@
     <!-- <link rel="stylesheet" href="/Public/Admin/css/pintuer.css"> -->
     <!-- <link rel="stylesheet" href="/Public/Admin/css/admin.css"> -->
     <!-- <script src="/Public/Admin/js/jquery.js"></script>   -->
+=======
+    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/admin.css">
+    <script src="/work/dashixun/xiangmu/Public/Admin/js/jquery.js"></script>   
+    <script src="/work/dashixun/xiangmu/Public/Admin/js/pintuer.js"></script>
+    <!-- <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/pintuer.css"> -->
+    <!-- <link rel="stylesheet" href="/work/dashixun/xiangmu/Public/Admin/css/admin.css"> -->
+    <!-- <script src="/work/dashixun/xiangmu/Public/Admin/js/jquery.js"></script>   -->
+>>>>>>> 7a1ae4c71e6474bf00522da70cdf316281f1eda8
 </head>
 <body style="background-color:#f2f9fd;">
 <div class="header bg-main">
 
   <div class="logo margin-big-left fadein-top">
+<<<<<<< HEAD
     <h1><img src="/Public/Admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
+=======
+    <h1><img src="/work/dashixun/xiangmu/Public/Admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
+>>>>>>> 7a1ae4c71e6474bf00522da70cdf316281f1eda8
   </div>
   
                 
@@ -35,6 +49,7 @@
   <div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
   <h2><span class="icon-pencil-square-o"></span>文章管理</h2>
   <ul style="display:block">
+<<<<<<< HEAD
     <li><a href="/admin.php/Article/list" target="right"><span class="icon-caret-right"></span>文章列表</a></li>
   </ul>  
   <h2><span class="icon-pencil-square-o"></span>留言管理</h2>
@@ -52,6 +67,25 @@
   <h2><span class="icon-pencil-square-o"></span>菜单管理</h2>
   <ul>
     <li><a href="/admin.php/Menu/menulist" target="right"><span class="icon-caret-right"></span>菜单列表</a></li> 
+=======
+    <li><a href="/work/dashixun/xiangmu/admin.php/Article/list" target="right"><span class="icon-caret-right"></span>文章列表</a></li>
+  </ul>  
+  <h2><span class="icon-pencil-square-o"></span>留言管理</h2>
+  <ul>
+    <li><a href="/work/dashixun/xiangmu/admin.php/Book/index" target="right"><span class="icon-caret-right"></span>留言列表</a></li> 
+  </ul>
+  <h2><span class="icon-pencil-square-o"></span>轮播管理</h2>
+  <ul>
+    <li><a href="/work/dashixun/xiangmu/admin.php/System/adv" target="right"><span class="icon-caret-right"></span>首页轮播</a></li> 
+  </ul>
+  <h2><span class="icon-pencil-square-o"></span>用户管理</h2>
+  <ul>
+    <li><a href="/work/dashixun/xiangmu/admin.php/System/adminlist" target="right"><span class="icon-caret-right"></span>管理员列表</a></li> 
+  </ul>
+  <h2><span class="icon-pencil-square-o"></span>菜单管理</h2>
+  <ul>
+    <li><a href="/work/dashixun/xiangmu/admin.php/Menu/menulist" target="right"><span class="icon-caret-right"></span>菜单列表</a></li> 
+>>>>>>> 7a1ae4c71e6474bf00522da70cdf316281f1eda8
   </ul>
 </div>
 <script type="text/javascript">
